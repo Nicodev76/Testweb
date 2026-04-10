@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nico's Messenger</title>
+    <link rel="stylesheet" href="static/style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <aside class="sidebar">
+        <div class="profile-section">
+          <div class="avatar">N</div>
+        </div>
+        <div class="contact-list">
+          <div class="contact active">
+            <div class="c-avatar">J</div>
+            <div class="c-info">
+              <span class="name">Junus</span>
+              <span class="status">Schreibt...</span>
+            </div>
+          </div>
+          <div class="contact">
+            <div class="c-avatar">S</div>
+            <div class="c-info">
+              <span class="name">Server-Bot</span>
+              <span class="status">Online</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <main class="chat-area">
+        <header class="chat-header">
+          <h3>Junus</h3>
+        </header>
+
+        <div class="message-list"></div>
+
+        <form class="input-container" action="" method="POST">
+          <input type="text" name="content"  placeholder="Deine Nachricht..." />
+          <button class="send-btn" type="submit">
+            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path></svg>
+          </button>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
